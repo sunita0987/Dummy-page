@@ -15,7 +15,10 @@ function Product() {
       </h1>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map((product) => (
-          <li key={product.id} className="border rounded-xl p-4 hover:shadow-lg transition ">
+          <li
+            key={product.id}
+            className="border rounded-xl p-4 hover:shadow-lg transition "
+          >
             <Link to={`/products/${product.id}`}>
               <img
                 src={product.image}

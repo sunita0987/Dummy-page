@@ -8,12 +8,11 @@ function RouteExample() {
       <nav>
         <ul className="flex space-x-4">
           <li><Link to="form" className="hover:text-gray-500">Form</Link></li>
-          <li><Link to="link2" className="hover:text-gray-500">Link-2</Link></li>
+          <li><Link to="link-2" className="hover:text-gray-500">Link-2</Link></li>
         </ul>
       </nav>
       <Outlet />
     </div>
   );
 }
-
 export default RouteExample;

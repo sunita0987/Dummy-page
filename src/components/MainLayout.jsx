@@ -8,6 +8,7 @@ export default function MainLayout() {
         <ul className="flex gap-6">
           <NavLink
             to="/"
+            end
             className={({ isActive }) =>
               isActive ? "text-black font-bold" : ""
             }
