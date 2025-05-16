@@ -23,7 +23,10 @@ export default function Contact() {
         placeholder="Your message"
         className="border rounded p-2 w-full h-32"
       ></textarea>
-      <button type="submit" className="border p-2 bg-blue-400 rounded-xl cursor-pointer hover:bg-blue-700 text-white">
+      <button
+        type="submit"
+        className="border p-2 bg-blue-400 rounded-xl cursor-pointer hover:bg-blue-700 text-white"
+      >
         Submit
       </button>
     </form>
