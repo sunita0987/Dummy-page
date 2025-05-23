@@ -7,7 +7,6 @@ function Product() {
     { id: 2, name: "Product 2", image: " src/assets/images/india.webp" },
     { id: 3, name: "Product 3", image: "src/assets/images/amazon.webp" },
   ];
-
   return (
     <div className="p-6">
       <h1 className="text-4xl font-bold text-indigo-700 mb-6 text-center">
